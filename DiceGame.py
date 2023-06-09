@@ -7,7 +7,7 @@ print(f"Hello, {name}!")
 
 sleep(1)
 
-print("Rolling dice...")
+print("Rolling the dice...")
 dices = [r.randint(1,6) for i in range(2)]
 sleep(0.5)
 
@@ -17,4 +17,4 @@ else:
     num = sum(dices)
     print(f"Total value: {num}")
 
-print("You won") if num > 7 else print("You lose")
+print(f"{name} won!") if num > 7 else print(f"{name} lose")
